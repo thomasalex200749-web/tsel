@@ -1,0 +1,23 @@
+:root {
+  --color-bg: #0a0a0a;
+  --color-surface: #141414;
+  --color-border: #2a2a28;
+  --color-gold: #c9b896;
+  --color-gold-bright: #e8dcc4;
+  --color-text: #ede8de;
+  --color-text-muted: #8a8578;
+  --color-error: #b85c5c;
+
+  --font-heading: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+
+  --letter-spacing-wide: 0.15em;
+  --letter-spacing-label: 0.08em;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
